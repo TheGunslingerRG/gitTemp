@@ -11,3 +11,6 @@
 
 
 Could not find stored procedure dbo.sp_Inv_Patch_Computers_Subject_For_Licensing_resource_delete
+
+
+But where has it gone?!
