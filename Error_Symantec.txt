@@ -1,0 +1,13 @@
+, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Altiris.NS.ResourceManagement.DataClass.Purge(Guid dataClassGuid, GuidCollection resourceGuids)
+   at Altiris.NS.ResourceManagement.ResourceDataManager.PurgeResourceData(GuidCollection resourceGuids)
+   at Altiris.NS.ResourceManagement.Resource.OnDelete()
+   at Altiris.NS.ResourceManagement.Resource.DeletePartitionedResource())
+
+
+Could not find stored procedure dbo.sp_Inv_Patch_Computers_Subject_For_Licensing_resource_delete
